@@ -12,24 +12,24 @@ main()
 {
  long int barang, harga, pembelian;
  cout<<"list harga barang"<<endl;
- cout<<"1. sabun : 5000"<<endl;
- cout<<"2. shampo : 10000"<<endl;
- cout<<"3. rinso : 15000"<<endl;
+ cout<<"1. sabun : 3000"<<endl;
+ cout<<"2. shampo : 500"<<endl;
+ cout<<"3. rinso : 5000"<<endl;
  cout<<"id_barang=";
  cin>>barang;
  switch (barang)
  {
   case 1:
    cout<<"pembelian=sabun"<<endl;
-   harga = 5000;
+   harga = 3000;
   break;
   case 2:
    cout<<"pembelian=shampo"<<endl;
-    harga = 10000;
+    harga = 500;
   break;
   case 3:
    cout<<"pembelian=rinso"<<endl;
-  harga = 15000;
+  harga = 5000;
   break;
    default:
   cout<< "tidak tersedia"<<endl;
